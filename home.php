@@ -12,11 +12,8 @@
     <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
     
 </head>
-<head>
-    </head>
 
 
-    
     <script>
     function myFunction() {
   // Declare variables
@@ -65,13 +62,13 @@
                     Reset with world-class shopping, restaurants , events and hotels
                 
                 <div class="buttons">
-                    <a href="#events"><button class="btn">See events</button></a>
+                    <a href="events.php"><button class="btn">See events</button></a>
                 </div>
 
 
             </div>
             <div class="secondHalf">
-                <img src="media/logo.png" alt="Company Logo">
+                <img src="media/logo.png" alt="Logo">
             </div>
         </div>
     </section>
