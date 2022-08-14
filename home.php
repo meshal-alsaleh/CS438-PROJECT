@@ -3,17 +3,16 @@
 
 <head>
     
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riyadh Trail - home</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
     
 </head>
+<head>
+    </head>
 
 
+    
     <script>
     function myFunction() {
   // Declare variables
@@ -36,6 +35,9 @@
 }
 </script>
 <body>
+                     <video autoplay muted loop id="myVideo">
+                    <source src="media/riyadhvid11.mp4" type="video/mp4">
+                  </video>
       <div>
         <nav class="nav-bar" style="background-color: black ;">
         <img src="media/logo.png" alt="logo" class="logo" style="opacity: 1">
@@ -68,7 +70,7 @@
 
             </div>
             <div class="secondHalf">
-                <img src="media/logo.png" alt="Logo">
+                <img src="media/logo.png" alt="Company Logo">
             </div>
         </div>
     </section>
@@ -82,9 +84,7 @@
 
 
         <div class="thumbnail">
-                <video autoplay muted loop id="myVideo">
-                    <source src="media/riyadhvideo1.mp4" type="video/mp4">
-                  </video>
+               
         </div>
     </section>
 
