@@ -1,4 +1,4 @@
-# CS438-PROJECT - Riaydh Trail - Team :
+# CS438-PROJECT - Riyadh Trail - Team :
 
 Waleed AlDukhail
 
