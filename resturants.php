@@ -40,9 +40,6 @@ echo $s1[0]." ".$s1[3];
 
 <html>
     <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riyadh Trail - Resturants</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
@@ -155,7 +152,9 @@ echo $s1[0]." ".$s1[3];
         </style>
 
     </head>
-
+<video autoplay muted loop id="myVideo">
+                    <source src="media/dir.mp4" type="video/mp4">
+                  </video>
     
     
     <script>
@@ -190,6 +189,7 @@ echo $s1[0]." ".$s1[3];
         <li><a href="#events.php" inputmode="button" onClick="location.href='events.php'">Events</a></li>
         <li><a href="#hotels.php" inputmode="button" onClick="location.href='hotels.php'">Hotels</a></li>
         <li><a href="#attractions.php" inputmode="button" onClick="location.href='attractions.php'">Attractions</a></li>
+        <li><a href="#comment.php" inputmode="button" onClick="location.href='comment.php'">Riyadh Wall</a></li>
      </ul>
      <div class="right-nav-bar">
         <input type="text" name="search" id="search" onkeyup="myFunction()" placeholder="Search for pages.." >
@@ -203,7 +203,7 @@ echo $s1[0]." ".$s1[3];
        
        
         <form class="ROKA">
-            <div <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp;Roka  </div>
+            <div <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">Roka  </div>
             <div class="hide"> fine highly rated dining japanese resturant all the way from london to riyadh</div> > &nbsp; </div>
             <br>
             <br>
@@ -222,7 +222,7 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form  class="miazu">
-            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; miazu </div>
+            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">MYAZU</div>
             <div class="hide"> EXQUISITE CONTEMPORARY JAPANESE CUISINE , Fine dining with beuatful atmosphere </div>
             <br>
             <br>
@@ -241,7 +241,7 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="san_carlo">
-            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; San carlo </div>
+            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">San Carlo Cicchetti </div>
             <div class="hide"> Award-winning casual chic Italian restaurant located in Sulaymaniyah riyadh</div>
             <br>
             <br>
@@ -260,8 +260,8 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="beef_bar">
-            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; Beef bar </div>
-            <div class="hide"> beer bar Riyadh offers you the best-diversified beef dishes to satisfy different tastes , located in tahila street</div>
+            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">Beef Bar </div>
+            <div class="hide"> beer bar Riyadh offers you the best-diversified beef dishes to satisfy different tastes, located near MYAZU </div>
             <br>
             <br>
             <br>
@@ -279,8 +279,8 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="monkey_house">
-            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; MNKY House </div>
-            <div class="hide"> contemporary Latin American restaurant, Award winning Latin American cuisine. All the way from London to Riyadh.</div>
+            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">MNKY HSE</div>
+            <div class="hide"> Monkey House, a contemporary Latin American restaurant, Award winning Latin American cuisine. All the way from London to Riyadh.</div>
             <br>
             <br>
             <br>
@@ -298,7 +298,7 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="fares_breakfast">
-            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; f6oor fares </div>
+            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">F6oor Fares </div>
             <div class="hide"> a great choice for a local reasonably prices Saudi breakfast, tasty & affordable</div>
             <br>
             <br>
@@ -317,7 +317,7 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="najd_village">
-           <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; najdi village </div>
+           <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">Najdi Village </div>
             <div class="hide">  local Saudi restaurant serves traditional Saudi najdi cuisine , indoor & outdoor seating area with traditional Saudi old decorations</div>
             <br>
             <br>
@@ -336,7 +336,7 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="avak">
-            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; Avak </div>
+            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">Avak </div>
             <div class="hide"> Modern Mediterranean Cuisines, with divers Arabian dishes from different countries</div>
             <br>
             <br>
@@ -355,7 +355,7 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="wagiu_burger">
-            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp; wagiu Burger </div>
+            <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">Wagyu Burger </div>
             <div class="hide"> specialized in beefburgers with reasonable prices , EXQUISITE diversified dishes</div>
             <br>
             <br>
@@ -374,7 +374,7 @@ echo $s1[0]." ".$s1[3];
          </form>
 
          <form class="shababyk">
-           <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); "> &nbsp;  shababik </div>
+           <div class="ResTittle" style="font-size:xx-large ; font-weight:bold ; background-color: rgba(255,255,255,0.5); ">Shababik </div>
             <div class="hide"> luxurious Lebanesenes restaurant, with Arabian fine dining and excellent Arabian atmosphere</div>     
             <br> 
             <br>
