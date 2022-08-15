@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
     
-</head>
-<head>
+
     </head>
 
 
