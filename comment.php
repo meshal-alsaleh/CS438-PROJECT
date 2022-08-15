@@ -227,6 +227,7 @@ $find_comments = mysqli_query($con , "select * from comment  ");
 
 while($row =mysqli_fetch_array($find_comments) )
 {
+    //print all ;
     $comment_name = $row['name'];
     $comment_content = $row['comment_con'];
     echo "<form style='background-color: #DEDEB5; ;'>"."&nbsp;"."<img src ='icons/pin2.png' width='40px'>"."<br>"."by:".$comment_name."<br>".$comment_content."</form>" ;
