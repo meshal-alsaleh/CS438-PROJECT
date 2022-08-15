@@ -44,7 +44,6 @@ $s10 = mysqli_fetch_array($res); // VOG ;
          
         <style>
             form{
-               
                 background-image: url(so.jpg);
                 background-size: cover;
                 float:left;
@@ -56,13 +55,13 @@ $s10 = mysqli_fetch_array($res); // VOG ;
                 
            }
                 
-                .hide {
+            .hide {
             display: none;
             background-color: rgba(255,255,255,0.5);
             }
 
                 
-            }
+            
 
            
             .TransperntBorder
@@ -186,6 +185,7 @@ $s10 = mysqli_fetch_array($res); // VOG ;
         <li><a href="#events.php" inputmode="button" onClick="location.href='events.php'">Events</a></li>
         <li><a href="#hotels.php" inputmode="button" onClick="location.href='hotels.php'">Hotels</a></li>
         <li><a href="#attractions.php" inputmode="button" onClick="location.href='attractions.php'">Attractions</a></li>
+        <li><a href="#comment.php" inputmode="button" onClick="location.href='comment.php'">Riyadh Wall</a></li>
      </ul>
      <div class="right-nav-bar">
         <input type="text" name="search" id="search" onkeyup="myFunction()" placeholder="Search for pages.." >
